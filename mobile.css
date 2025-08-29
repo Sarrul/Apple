@@ -1,9 +1,20 @@
 * {
   margin: 0;
 }
-
+body {
+  margin: 0;
+  padding: 0;
+}
+#main {
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+}
 .mobile {
-  width: 390px;
+  /* width: 390px; */
   background: white;
   gap: 12px;
 }
@@ -17,21 +28,236 @@
   display: flex;
   flex-direction: row;
 }
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.inter2 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+.font-general {
+  font-size: 14px;
+  line-height: 20px;
+}
+.white {
+  color: white;
+}
+.black {
+  color: black;
+}
+.Img {
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+.writing-general {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+.bicig {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  color: rgba(245, 245, 247, 1);
+}
+.product {
+  font-size: 30px;
+  line-height: 36px;
+}
+.hello {
+  font-size: 18px;
+  line-height: 120%;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+.button1 {
+  display: flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 999px;
+  background: #0071e3;
+}
+.button2 {
+  display: flex;
+  padding: 8px 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 999px;
+  border: 1px solid #2997ff;
+  color: #2997ff;
+}
 /*     section 1.    */
 .navigation {
-  width: 390px;
   height: 121px;
 }
 .menu {
-  width: 390px;
   height: 48px;
   display: flex;
   justify-content: space-between;
+  padding-left: 16px;
+  padding-right: 15px;
+}
+.menu-right {
+  gap: 31px;
 }
 .icon {
   display: flex;
-  width: 49px;
+  width: 17px;
   height: 48px;
   align-items: center;
   margin: 0;
+}
+.menu-bicig {
+  height: 73px;
+  padding-left: 31px;
+  padding-right: 31px;
+}
+
+/*   section 2 */
+
+.Pro {
+  background-image: url(/pro.jpg);
+  align-items: end;
+}
+
+.pro-writing {
+  padding-bottom: 36px;
+}
+
+/*  section 3 */
+.iphone16 {
+  background-image: url(/iphone16.jpg);
+  align-items: start;
+}
+.iphone16-writing {
+  padding-top: 36px;
+}
+.button3 {
+  display: flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 999px;
+  background: white;
+}
+.button4 {
+  display: flex;
+  padding: 8px 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 999px;
+  border: 1px solid white;
+}
+/* section 4 */
+.ipad-air {
+  background-image: url(./ipad-air.jpg);
+  justify-content: space-between;
+  padding-bottom: 22px;
+}
+.ipad-air-writing {
+  padding-top: 36px;
+}
+.two-sizes {
+  font-size: 18px;
+  line-height: 32px;
+  padding-top: 4px;
+  color: black;
+}
+.hello-colorful {
+  font-size: 14px;
+  line-height: 18px;
+  background: linear-gradient(
+    90deg,
+    #0090f7 0%,
+    #ba62fc 33.33%,
+    #f2416b 66.67%,
+    #f55600 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-bottom: 36px;
+}
+/* section 5 */
+.airpods4 {
+  background-image: url(./airpods4.jpg);
+  align-items: end;
+}
+.airpods4-writing {
+  padding-bottom: 54px;
+  width: 241px;
+  align-items: center;
+  gap: 20px;
+}
+.airpods4-bicig {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  color: rgba(245, 245, 247, 1);
+}
+.iconic {
+  font-size: 18px;
+  line-height: 20px;
+}
+/* section 6 */
+.watch {
+  background-image: url(./watch.jpg);
+  justify-content: start;
+}
+.watch-writing {
+  padding-top: 46px;
+  width: 235px;
+}
+.watch-product {
+  font-size: 28px;
+  line-height: normal;
+  gap: 4px;
+}
+.series10 {
+  font-size: 13px;
+  line-height: normal;
+}
+.thinstant {
+  font-size: 18px;
+  line-height: 25px;
+}
+/* section 7 */
+.mac-air {
+  background-image: url(/mac-air.jpg);
+  align-items: start;
+}
+.mac-writing {
+  padding-top: 42px;
+}
+/* section 8 */
+.emoji {
+  background-image: url(./emoji.png);
+  align-items: start;
+}
+.emoji-writing {
+  padding-top: 47px;
+  width: 257px;
 }
