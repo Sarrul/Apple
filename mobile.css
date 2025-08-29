@@ -243,6 +243,10 @@ body {
   font-size: 18px;
   line-height: 25px;
 }
+.sec5-6 {
+  display: flex;
+  flex-direction: column;
+}
 /* section 7 */
 .mac-air {
   background-image: url(/mac-air.jpg);
@@ -317,8 +321,62 @@ body {
   .Pro {
     background-image: url(/pro2.jpg) !important;
     width: 100%;
+    align-items: start;
   }
   .pro-writing {
     padding-top: 58px;
+  }
+  .iphone16 {
+    background-image: url(/iphone16-2.jpg);
+    align-items: start;
+  }
+  .ipad-air {
+    background-image: url(./ipad-air-2.jpg);
+    justify-content: space-between;
+    padding-bottom: 22px;
+  }
+  .section-- {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    gap: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .airpods4 {
+    background-image: url(./airpods4.jpg);
+    align-items: end;
+    width: 48vw;
+    height: 50vh;
+  }
+  .watch {
+    background-image: url(./watch.jpg);
+    justify-content: start;
+    width: 48vw;
+    height: 50vh;
+  }
+  .mac-air {
+    background-image: url(/mac-air.jpg);
+    align-items: start;
+    width: 48vw;
+    height: 50vh;
+  }
+  .emoji {
+    background-image: url(./emoji.png);
+    align-items: start;
+    width: 48vw;
+    height: 50vh;
+  }
+  .deals {
+    background-image: url(./deals.jpg);
+    align-items: end;
+    width: 48vw;
+    height: 50vh;
+  }
+  .trade {
+    background-image: url(./trade.jpg);
+    align-items: start;
+    width: 48vw;
+    height: 50vh;
   }
 }
