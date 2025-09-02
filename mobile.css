@@ -171,14 +171,12 @@ body {
 }
 .gift {
   background-image: url(./gift.jpg);
-
   display: none;
 }
 /* section 4 */
 .ipad-air {
   background-image: url(./ipad-air.jpg);
   justify-content: space-between;
-  padding-bottom: 22px;
 }
 .ipad-air-writing {
   padding-top: 36px;
@@ -335,8 +333,31 @@ body {
   gap: 16px;
   display: none;
 }
+.web-movie {
+  display: none;
+}
+.web-music {
+  display: none;
+}
+@media (max-width: 767px) {
+  body {
+    background-color: green;
+  }
+  .tab-music {
+    display: none;
+  }
+  .navigation2 {
+    display: none;
+  }
+}
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 1023px) {
+  body {
+    background-color: red;
+  }
+  .navigation2 {
+    display: none;
+  }
   .container {
     display: grid;
     grid-template-columns: auto auto;
@@ -363,7 +384,6 @@ body {
   .ipad-air {
     background-image: url(./ipad-air-2.jpg);
     justify-content: space-between;
-    padding-bottom: 22px;
   }
   .mid1 {
     background-image: url(./airpods4.jpg);
@@ -408,8 +428,51 @@ body {
     gap: 16px;
     display: block;
   }
+  .tab-music {
+    display: flex;
+    overflow: scroll;
+    gap: 16px;
+  }
+  .one {
+    gap: 15px;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0;
+  }
+  .tab-music3 {
+    width: 286px;
+    height: 161px;
+    background-color: black;
+  }
+  .movie {
+    display: none;
+  }
+  .web-movie {
+    display: none;
+  }
+  .web-music {
+    display: none;
+  }
 }
-@media (min-width: 1920px) {
+@media (min-width: 1024px) {
+  body {
+    background-color: black;
+  }
+  .navigation {
+    display: none;
+  }
+  .navigation2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .menu2 {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    font-size: 12px;
+    line-height: 60px;
+  }
   .Pro {
     background-image: url(/pro2.jpg) !important;
     width: 100%;
@@ -424,18 +487,46 @@ body {
   }
   .gift {
     background-image: url(./gift.jpg);
-    display: block;
+    display: flex;
+    align-items: end;
+    justify-content: center;
     width: 100%;
     height: 692px;
     background-position: center;
     background-size: cover;
+  }
+  .gift-general-writing {
+    padding-bottom: 82px;
+  }
+  .gift-bicig {
+    gap: 12px;
+  }
+  .gift-product {
+    font-size: 52px;
+    line-height: 60px;
+  }
+  .gift-jijig-bicig {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .gift-button {
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    padding: 12px 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 999px;
+    background: #0071e3;
   }
   .container {
     display: none;
   }
   .container2 {
     display: grid;
-    grid-template-columns: auto auto;
+    height: 1500px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     background-color: white;
     padding-left: 12px;
     padding-right: 12px;
@@ -444,8 +535,8 @@ body {
   .ipad-air {
     background-image: url(./ipad-air.jpg);
     justify-content: space-between;
-    padding-bottom: 22px;
     width: 100%;
+    height: 100%;
   }
   .ipad-air-writing {
     padding-top: 36px;
@@ -458,6 +549,7 @@ body {
     background-position: center;
     background-size: cover;
     width: 100%;
+    height: 100%;
   }
   .airpod-web-writing {
     gap: 10px;
@@ -468,16 +560,19 @@ body {
     justify-content: start;
     display: flex;
     width: 100%;
+    height: 100%;
   }
   .mid3 {
     background-image: url(/mac-air.jpg);
     align-items: start;
     width: 100%;
+    height: 100%;
   }
   .mid6 {
     background-image: url(./trade.jpg);
     align-items: start;
     width: 100%;
+    height: 100%;
   }
   .card {
     background-image: url(./card-web.jpg);
@@ -485,5 +580,26 @@ body {
     background-position: center;
     background-size: cover;
     width: 100%;
+    height: 100%;
+  }
+  .movie {
+    display: none;
+  }
+  .web-movie {
+    display: flex;
+    overflow: scroll;
+    gap: 16px;
+    height: 100%;
+    width: 100%;
+  }
+  .web-music {
+    display: flex;
+    overflow: scroll;
+    gap: 16px;
+    height: 100%;
+    width: 100%;
+  }
+  .tab-music {
+    display: none;
   }
 }
