@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+#main {
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+}
+/* yronhii */
+.column {
+  display: flex;
+  flex-direction: column;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.inter2 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+.white {
+  color: white;
+}
+.black {
+  color: black;
+}
+/* section */
+.sections {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 60px;
+  align-self: stretch;
+  max-width: 1024;
+}
+.typical-section {
+  display: flex;
+  padding: 0 140px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+}
+.typical-garchiguud {
+  gap: 10px;
+}
+.typical-garchig {
+  font-size: 24px;
+  line-height: 32px;
+}
+/* section1 */
+
+.section1 {
+  gap: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navigation2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header {
+  background: rgba(245, 245, 247, 0.8);
+  width: 100%;
+}
+.menu2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  font-size: 12px;
+  line-height: 60px;
+  width: 1024px;
+}
+.icon {
+  display: flex;
+  width: 17px;
+  height: 48px;
+  align-items: center;
+  margin: 0;
+}
+.menu-bicig {
+  height: 60px;
+}
+.font-general {
+  font-size: 14px;
+  line-height: 20px;
+}
+.ongo-bicig {
+  background: linear-gradient(90deg, #0090f7 0%, #ba62fc 50%, #f2416b 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.ongogu-bicig {
+  color: rgba(110, 110, 115, 1);
+}
+.ongo-store {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  width: 1024px;
+}
+.Store-actual-bicig {
+  font-size: 44px;
+  line-height: 52px;
+}
+.contact {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+.contact-bicguud {
+  gap: 16px;
+}
+.contact-part {
+  gap: 4px;
+}
+.contact-tsenher {
+  color: rgba(0, 102, 204, 1);
+}
+.products {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  overflow: scroll;
+  width: 1024px;
+}
+.product-part {
+  display: flex;
+  width: 136px;
+  padding: 16px 8px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  text-align: center;
+}
+.product-part-bicig {
+  display: flex;
+  height: 20px;
+  justify-content: flex-end;
+  align-items: center;
+  align-self: stretch;
+}
+/* section 1 haalt */
+/* section 2 */
+.section2-cards {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  align-self: stretch;
+}
+.card1 {
+  background-image: url(./two-1.png);
+  display: flex;
+  justify-content: start;
+}
