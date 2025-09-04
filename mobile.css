@@ -590,6 +590,7 @@ body {
   .card {
     background-image: url(./card-web.jpg);
     display: flex;
+    justify-content: center;
     background-position: center;
     background-size: cover;
     width: 100%;
